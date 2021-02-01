@@ -19,6 +19,9 @@ while principal > 0:
         principal = principal * (1+rate/12) - payment
         total_paid = total_paid + payment
         month_total += 1
-    
-print('Total paid', total_paid)
-print('Month total', month_total)
+    print(month_total, total_paid, principal)
+
+total_paid -= abs(principal)
+
+print('Total paid:', total_paid)
+print('Month total:', month_total)
