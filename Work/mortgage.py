@@ -1,7 +1,7 @@
 # mortgage.py
 
 principal = 500000
-rate 0.05
+rate = 0.05
 payment = 2684.11
 total_paid = 0
 
