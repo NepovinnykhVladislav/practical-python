@@ -19,7 +19,7 @@ while principal > 0:
         principal = principal * (1+rate/12) - payment
         total_paid = total_paid + payment
         month_total += 1
-    print(month_total, total_paid, principal)
+    print(f'Month: {month_total} - Total paid: ${round(total_paid,2):0.2f} -  Principal: ${round(principal, 2):0.2f}')
 
 total_paid -= abs(principal)
 
